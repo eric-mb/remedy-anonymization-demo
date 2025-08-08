@@ -1,0 +1,20 @@
+[project]
+name = "anonymization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "audioop-lts",
+    "torch",
+    "spaces",
+#    "gradio==4.42.0",
+    "gradio-imageslider",
+#    "numpy==1.26.4",
+    "transformers",
+    "accelerate",
+    "diffusers<0.30.0",
+#    "fastapi<0.113.0",
+    "opencv-python",
+#    "httpx==0.25.0",
+]

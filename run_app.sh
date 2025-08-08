@@ -6,4 +6,4 @@
 #SBATCH -G 1
 
 export GRADIO_TEMP_DIR="tmp/"
-uv run diffusers-image-fill/app.py
+uv run app.py
